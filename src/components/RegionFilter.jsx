@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import DataContext from "../store/DataContext";
-import classes from '../styles/RegionFilter.module.css';
+import classes from '../Assets/styles/RegionFilter.module.css';
 
 const RegionFilter = () => {
 

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ReactComponent as Moon } from '../Assets/images/icon-moon.svg';
 import { ReactComponent as Sun } from '../Assets/images/icon-sun.svg';
-import classes from '../styles/Header.module.css';
+import classes from '../Assets/styles/Header.module.css';
 import DataContext from "../store/DataContext";
 
 const Header = () => {

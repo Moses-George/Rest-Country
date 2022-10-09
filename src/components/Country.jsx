@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { useNavigate } from 'react-router-dom';
-import classes from '../styles/Country.module.css';
+import classes from '../Assets/styles/Country.module.css';
 
 const Country = ({ name, population, region, capital, flag }) => {
 

@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { useParams, useNavigate } from 'react-router-dom';
 import { ReactComponent as Arrow } from '../Assets/images/Left-Arrow.svg';
 import DataContext from "../store/DataContext";
-import classes from '../styles/CountryDetails.module.css';
+import classes from '../Assets/styles/CountryDetails.module.css';
 
 
 const CountryDetails = () => {

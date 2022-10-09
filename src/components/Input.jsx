@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ReactComponent as Search } from "../Assets/images/Search.svg";
 import DataContext from "../store/DataContext";
-import classes from '../styles/Input.module.css';
+import classes from '../Assets/styles/Input.module.css';
 
 const Input = () => {
 

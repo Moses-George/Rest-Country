@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import DataContext from "../store/DataContext";
 import Country from "./Country";
-import classes from '../styles/Countries.module.css';
+import classes from '../Assets/styles/Countries.module.css';
 
 const Countries = () => {
 

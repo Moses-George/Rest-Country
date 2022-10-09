@@ -1,0 +1,43 @@
+    .header-input {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .darkMode {
+        background-color: hsl(207, 26%, 17%);
+        color: #fff;
+    }
+
+    .noResult {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .loader {
+        display: grid;
+        justify-items: center;
+    }
+
+    @media only screen and (min-width:320px) {
+        .header-input {
+            flex-direction: column;
+            padding: 1rem;
+            row-gap: 1rem;
+        }
+    }
+
+    @media only screen and (min-width:768px) {
+        .header-input {
+            flex-direction: row;
+            padding: 3rem 1rem 0;
+        }
+    }
+
+    @media only screen and (min-width:992px) {
+        .header-input {
+            flex-direction: row;
+            padding: 3rem 3.2rem 0;
+        }
+    }

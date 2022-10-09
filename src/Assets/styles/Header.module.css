@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 4px 3px -2px hsl(0, 4%, 81%);
+    background-color: #fff;
+}
+
+header svg {
+    justify-self: center;
+    align-self: center;
+}
+
+header svg path{
+    fill: #000;
+}
+
+.darkMode {
+    background-color: hsl(208, 22%, 25%);
+    box-shadow: 0 4px 3px -2px hsl(203, 22%, 12%);
+}
+
+.darkMode path {
+    fill: #fff;
+}
+
+@media screen and (min-width:320px) {
+    header {
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    header {
+        padding: 0rem 4rem;
+    }
+}

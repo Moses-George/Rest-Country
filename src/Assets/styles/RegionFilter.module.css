@@ -1,0 +1,31 @@
+.select {
+    color: #fff;
+    align-self: center;
+    padding: .8rem 1rem;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 25%);
+}
+
+.select select {
+    border: 0;
+    outline: 0;
+    font: inherit;
+    padding: 0 1rem 0 0;
+}
+
+.darkMode {
+    background-color: hsl(209, 23%, 22%);
+    color: #fff;
+}
+
+.darkMode select {
+    background-color: hsl(209, 23%, 22%);
+    color: #fff;
+}
+
+@media screen and (max-width:450px){
+    .select {
+        align-self: flex-start;
+    }
+}

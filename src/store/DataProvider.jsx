@@ -3,7 +3,9 @@ import DataContext from "./DataContext";
 
 const DataProvider = ({ children }) => {
 
-    const [data, setData] = useState([]);
+    const initializer = () => JSON.parse(localStorage.getItem("countries")) || []
+
+    const [data, setData] = useState(initializer);
     const [filteredRegion, setFilteredRegion] = useState('All');
     const [searchQuery, setSearchQuery] = useState("");
     const [darkMode, setDarkMode] = useState(false);
